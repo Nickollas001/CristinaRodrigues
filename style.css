@@ -1,0 +1,32 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+main{
+    width: 100%;
+}
+
+.container{
+    background-color: #dddddd;
+    width: 100%;
+    display: flex;
+
+}
+.containerEvo{
+    width: 100%;
+    display: flex;
+
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+.item img{
+    width: 200px;
+    height: 200px;
+}
+iframe{
+    display: none;
+}
