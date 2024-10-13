@@ -4,12 +4,13 @@ window.onload = function() {
     var elevacaopelvica = document.getElementById("elevacaopelvica");
     var mesaFlexora = document.getElementById("mesaflexora");
 
-    elevacaopelvica.onclick = function() {
-         graficoElevacaoPelvica.style.display = "flex";
-         graficoMesaFlexora.style.display = "none";
-    };
+
     mesaFlexora.onclick = function() {
         graficoElevacaoPelvica.style.display = "none";
         graficoMesaFlexora.style.display = "flex";
    };
+   elevacaopelvica.addEventListener('click',()=>{
+     graficoElevacaoPelvica.style.display = "flex";
+     graficoMesaFlexora.style.display = "none";
+   })
 };
