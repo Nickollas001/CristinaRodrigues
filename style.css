@@ -42,8 +42,5 @@ iframe{
         display: flex;
         flex-direction: column;
     }
-    iframe{
-        width: 100%;
-    }
   
   }
