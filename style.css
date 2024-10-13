@@ -30,3 +30,20 @@ main{
 iframe{
     display: none;
 }
+@media screen and (max-width: 480px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+  
+  }
+  @media screen and (max-width: 840px){
+    .containerEvo{
+        display: flex;
+        flex-direction: column;
+    }
+    iframe{
+        width: 100%;
+    }
+  
+  }
